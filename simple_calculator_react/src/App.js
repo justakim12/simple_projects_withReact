@@ -9,6 +9,10 @@ function App() {
   return (
     <body> 
       <Header></Header>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <h1>Calculator Project</h1>
         <div class="container">
           <div class="row">
