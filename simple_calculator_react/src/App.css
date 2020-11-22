@@ -3,6 +3,13 @@ h1 {
   font-size: 60px;
 }
 
+.Header {
+  height: 75px;
+  background-color: darkcyan;
+  color: #ffffff;
+  font-size: 16px;
+}
+
 body {
   border: 3px solid black;
 }

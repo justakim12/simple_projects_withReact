@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   function numAlert() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <body>
+      <Header></Header>
       <h1>Calculator Project</h1>
         <div class="container">
           
