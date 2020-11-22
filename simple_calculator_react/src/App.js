@@ -1,13 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  function numAlert() {
+    window.alert("num 0 clicked!")
+  }
+
   return (
     <body>
       <h1>Calculator Project</h1>
         <div class="container">
+          
           <div class="row">
-            <div class="cal-button">0</div>
+            <div id="result" class="output-bar">0</div>
+          </div>
+
+          <div class="row">
+            <div class="cal-button" onClick = {numAlert}>0</div>
             <div class="cal-button">1</div>
             <div class="cal-button">2</div>
             <div id="plus" class="cal-button equation">+</div>
