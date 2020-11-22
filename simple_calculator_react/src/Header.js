@@ -1,7 +1,10 @@
 const Header = () => {
     return (
-        <div className="Header">
-            <div className="menuBar">
+        <div className="header">
+            <div className="logo-box">
+                Logo Image Box
+            </div>
+            <div className="menu-box">
                 <div className="menus">
                     Simple Calculator
                 </div>
