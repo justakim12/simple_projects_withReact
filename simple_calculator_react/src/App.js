@@ -7,11 +7,10 @@ function App() {
   }
 
   return (
-    <body>
+    <body> 
       <Header></Header>
       <h1>Calculator Project</h1>
         <div class="container">
-          
           <div class="row">
             <div id="result" class="output-bar">0</div>
           </div>
@@ -43,8 +42,56 @@ function App() {
               <div id="equal" class="cal-button equation">=</div>
               <div id="divide" class="cal-button equation">/</div>
           </div>
-        </div>  
+        </div>   
+
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
+      <div class="content">
+        Make page scrollable.
+      </div>
     </body>
+    
+
   );
 }
 

@@ -94,3 +94,10 @@ body {
   background-color: turquoise;
   border: 2px solid orange;
 }
+
+.content {
+  font-size: 30px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
