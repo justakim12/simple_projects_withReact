@@ -8,8 +8,8 @@ h1 {
   background-color: darkslategrey;
   display: flex;
   justify-content: space-around;
+  justify-content: flex-start;
   border: 3px solid blue; 
-
 }
 
 .logo-box {
@@ -33,6 +33,12 @@ h1 {
 .menus {
   color: #ffffff;
   font-size: 20px;
+}
+
+@media screen and (max-width: 812px) {
+  .menu-box {
+    display: none;
+  }   
 }
 
 body {
