@@ -1,7 +1,6 @@
 .header {
-  position: fixed;
   width: 100%;
-  height: 80px;
+  height: 120px;
   background-color: #282828;
   display: flex;
   justify-content: space-around;
@@ -9,16 +8,19 @@
 }
 
 .logo-box {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #ffffff;
   font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2em;
 }
 
 .menu-box {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,3 +43,24 @@
   display: flex;
   justify-content: center;
 }
+
+.headImage-box {
+  height: 1200px;
+  width: 100%;
+  background-color:#333333;
+}
+
+.headImage-h1{
+  text-transform: uppercase, bold;
+  color: #ffffff;
+  font-size: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoImage-box{
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+

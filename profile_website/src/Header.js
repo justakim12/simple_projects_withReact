@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo-box">
-                Logo Image Box
+                Just Another Kim
             </div>
             <div className="menu-box">
                 <div className="menus">
