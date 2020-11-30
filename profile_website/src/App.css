@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  background-color: #282828;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.logo-box {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.menu-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menus {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 812px) {
+  .menu-box {
+    display: none;
+  }   
+}
+
+/*start of HeadImage*/
+
+.headImage-box {
+  width: 100vw;
+  height: 96vh;
+  background-color:#333333;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  border: 2px solid red;
 }
 
-.App-link {
-  color: #61dafb;
+.headImage-h1{
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family:'Open Sans', Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headImage-h2{
+  color: #ffffff;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 900;
+  font-weight: bold;
 }
+
+/*start of FirstContainer*/
+
+.container-box {
+  width: 100vw;
+  height: 75vh;
+  background-color:white;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.firstContainer-textbox{
+  margin-top: 10%;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family:'Open Sans', Arial, sans-serif;
+  border: 2px solid blue;
+}
+
+.firstContainer-textbox2{
+  margin-top: 3%;
+  font-family:'Open Sans', Arial, sans-serif;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid green;
+}
+
+.firstContainer-textbox2-h1{
+  font-size: 30px;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.firstContainer-textbox2-h2{
+  font-size: 26px;
+  color: #343a40;
+}
+
+/*start of blankContent*/
+
+.content {
+  font-size: 30px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
