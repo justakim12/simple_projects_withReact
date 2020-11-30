@@ -37,22 +37,79 @@
   }   
 }
 
+/*start of HeadImage*/
+
 .headImage-box {
-  height: 1200px;
-  width: 100%;
+  width: 100vw;
+  height: 96vh;
   background-color:#333333;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: 2px solid red;
 }
 
 .headImage-h1{
   color: #ffffff;
-  font-size: 80px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
+  font-family:'Open Sans', Arial, sans-serif;
 }
+
+.headImage-h2{
+  color: #ffffff;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+/*start of FirstContainer*/
+
+.container-box {
+  width: 100vw;
+  height: 75vh;
+  background-color:white;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.firstContainer-textbox{
+  margin-top: 10%;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family:'Open Sans', Arial, sans-serif;
+  border: 2px solid blue;
+}
+
+.firstContainer-textbox2{
+  margin-top: 3%;
+  font-family:'Open Sans', Arial, sans-serif;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid green;
+}
+
+.firstContainer-textbox2-h1{
+  font-size: 30px;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.firstContainer-textbox2-h2{
+  font-size: 26px;
+  color: #343a40;
+}
+
+/*start of blankContent*/
 
 .content {
   font-size: 30px;
