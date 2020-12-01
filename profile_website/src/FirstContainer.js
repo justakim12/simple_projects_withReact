@@ -25,13 +25,7 @@ const FirstContainer = () => {
                         <li>Working at Naver, the lead search engine of Korea</li>
                     </div> 
                 </div>
-
             </div>
-
-
-
-  
-
         </div>   
     )
 }
