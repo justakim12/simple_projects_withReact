@@ -130,7 +130,14 @@
 
 /*start of SecondContainer*/
 
-
+.card-box {
+  width: 300px;
+  height: 400px;
+  padding: 50px;
+  margin: 20px;
+  border: 2px solid red;
+  background-color: #D3D3D3;
+}
 
 /*start of blankContent*/
 
