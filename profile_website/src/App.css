@@ -130,11 +130,45 @@
 
 /*start of SecondContainer*/
 
-.card-box {
-  width: 300px;
-  height: 400px;
-  padding: 50px;
-  margin: 20px;
+.card-boxContainer {
+  height: 80%;
+  width: 100%;
+  margin: 2%;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.card-box1 {
+  width: 25%;
+  height: 80%;
+  margin: 3%;
+  border: 2px solid red;
+  background-color: #D3D3D3;
+}
+
+.card-box2 {
+  width: 25%;
+  height: 80%;
+  margin: 3%;
+  border: 2px solid red;
+  background-color: #D3D3D3;
+}
+
+.card-box3 {
+  width: 25%;
+  height: 80%;
+  margin: 3%;
+  border: 2px solid red;
+  background-color: #D3D3D3;
+}
+
+.card-box4 {
+  width: 25%;
+  height: 80%;
+  margin: 3%;
   border: 2px solid red;
   background-color: #D3D3D3;
 }
