@@ -1,7 +1,7 @@
 const SecondContainer = () => {
     return (
         <div className="container-box">
-            <div className="firstContainer-textbox">
+            <div className="secondContainer-textbox">
                 PROJECTS
             </div>
             <div className="card-boxContainer">
