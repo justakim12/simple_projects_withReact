@@ -9,11 +9,11 @@ const ThirdContainer = () => {
                 SKILLSET
             </div>
             <div className="skillset-boxContainer">
-                <div className="logo-box">
+                <div className="skillsetImage-box">
                     <img className="firstLogo-image" src={python_logo}></img>
+                    <img className="secondLogo-image" src={sql_logo}></img>
+                    <img className="thirdLogo-image" src={tableau_logo}></img>
                 </div>
-                <img className="secondLogo-image" src={sql_logo}></img>
-                <img className="thirdLogo-image" src={tableau_logo}></img>
             </div>
         </div>   
     )
