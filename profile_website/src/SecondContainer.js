@@ -2,7 +2,7 @@ const SecondContainer = () => {
     return (
         <div className="container-box">
             <div className="secondContainer-textbox">
-                PROJECTS
+                WORK
             </div>
             <div className="card-boxContainer">
                 <div className="card-box1">

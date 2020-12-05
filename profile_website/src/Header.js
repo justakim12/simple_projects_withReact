@@ -9,7 +9,7 @@ const Header = () => {
                     ABOUT
                 </div>
                 <div className="menus">
-                    PROJECTS
+                    WORK
                 </div>
                 <div className="menus">
                     SKILLSET
