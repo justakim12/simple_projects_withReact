@@ -255,6 +255,39 @@
   height: 100px;
 }
 
+/*start of FourthContainer*/
+
+.fourthContainer-textbox{
+  margin-top: 5%;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family:'Open Sans', Arial, sans-serif;
+}
+
+.fourthContainer-box {
+  width: 100vw;
+  height: 150vh;
+  background-color:white;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.timeline-boxContainer {
+  height: 100%;
+  width: 75%;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.timeline {
+  width: 6px;
+  background-color: #282828;
+}
+
 /*start of blankContent*/
 
 .content {
