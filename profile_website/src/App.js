@@ -15,53 +15,6 @@ function App() {
       <SecondContainer></SecondContainer>
       <ThirdContainer></ThirdContainer>
       <FourthContainer></FourthContainer>
-      <br></br>
-      <br></br>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
-      <div class="content">
-        Make page scrollable.
-      </div>
     </body>
   );
 }
