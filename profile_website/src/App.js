@@ -5,6 +5,7 @@ import FirstContainer from './FirstContainer.js'
 import SecondContainer from './SecondContainer.js'
 import ThirdContainer from './ThirdContainer.js'
 import FourthContainer from './FourthContainer.js'
+import FifthContainer from './FifthContainer.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SecondContainer></SecondContainer>
       <ThirdContainer></ThirdContainer>
       <FourthContainer></FourthContainer>
+      <FifthContainer></FifthContainer>
     </body>
   );
 }
