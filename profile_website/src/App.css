@@ -50,7 +50,7 @@
   border: 2px solid red;
 }
 
-.headImage-h1{
+.headImage-h1 {
   color: #ffffff;
   font-size: 50px;
   display: flex;
@@ -58,7 +58,7 @@
   font-family:'Open Sans', Arial, sans-serif;
 }
 
-.headImage-h2{
+.headImage-h2 {
   color: #ffffff;
   font-size: 90px;
   display: flex;
@@ -80,7 +80,7 @@
   border: 2px solid red;
 }
 
-.firstContainer-textbox{
+.firstContainer-textbox {
   margin-top: 5%;
   font-size: 40px;
   text-decoration: underline;
@@ -93,12 +93,12 @@
   flex-direction: row;
 }
 
-.firstContainer-image{
+.firstContainer-image {
   width: 350px;
   height: auto;
 }
 
-.firstContainer-textbox2{
+.firstContainer-textbox2 {
   margin-left: 7%;
   width: 800px;
   font-family:'Open Sans', Arial, sans-serif;
@@ -108,19 +108,19 @@
   flex-direction: column;
 }
 
-.firstContainer-textbox2-h1{
+.firstContainer-textbox2-h1 {
   font-size: 30px;
   font-weight: 900;
   font-weight: bold;
 }
 
-.firstContainer-textbox2-h2{
+.firstContainer-textbox2-h2 {
   font-size: 26px;
   color: #343a40;
   text-align: center;
 }
 
-.firstContainer-textbox2-h3{
+.firstContainer-textbox2-h3 {
   font-size: 20px;
   color: #343a40;
   text-align: center;
@@ -130,7 +130,7 @@
 
 /*start of SecondContainer*/
 
-.secondContainer-textbox{
+.secondContainer-textbox {
   margin-top: 5%;
   font-size: 40px;
   text-decoration: underline;
@@ -181,7 +181,7 @@
 
 /*start of ThirdContainer*/
 
-.thirdContainer-textbox{
+.thirdContainer-textbox {
   margin-top: 5%;
   font-size: 40px;
   text-decoration: underline;
@@ -207,7 +207,7 @@
   flex-direction: column;
 }
 
-.skillsetImage-row1{
+.skillsetImage-row1 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -216,7 +216,7 @@
   margin-bottom: 4%;
 }
 
-.skillsetImage-row2{
+.skillsetImage-row2 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -225,39 +225,39 @@
 }
 
 
-.firstLogo-image{
+.firstLogo-image {
   width: 300px;
   height: 200;
 }
 
-.secondLogo-image{
+.secondLogo-image {
   width: 300px;
   height: 200px;
 }
 
-.thirdLogo-image{
+.thirdLogo-image {
   width: 300px;
   height: 200px;
 }
 
-.fourthLogo-image{
+.fourthLogo-image {
   width: 300px;
   height: 200px;
 }
 
-.fifthLogo-image{
+.fifthLogo-image {
   width: 300px;
   height: 200px;
 }
 
-.sixthLogo-image{
+.sixthLogo-image {
   width: 300px;
   height: 100px;
 }
 
 /*start of FourthContainer*/
 
-.fourthContainer-textbox{
+.fourthContainer-textbox {
   margin-top: 5%;
   font-size: 40px;
   text-decoration: underline;
@@ -322,7 +322,7 @@
 
 /*start of FifthContainer*/
 
-.fifthContainer-textbox{
+.fifthContainer-textbox {
   margin-top: 5%;
   font-size: 40px;
   text-decoration: underline;
@@ -350,12 +350,12 @@
   border: 2px solid blue;
 }
 
-::placeholder{
+::placeholder {
   font-size: 25px;
   text-align: center;
 }
 
-.contact-1-container{
+.contact-1-container { 
   height: 25%;
 }
 
@@ -393,7 +393,7 @@
   text-align: center;
 }
 
-.contact-3-container{
+.contact-3-container {
   height: 25%;
 }
 
@@ -412,7 +412,7 @@
   text-align: center;
 }
 
-.contact-4-container{
+.contact-4-container {
   height: 25%;
 }
 
@@ -431,3 +431,8 @@
   text-align: center;
 }
 
+textarea {
+  font-size: 25px;
+  text-align: center;
+  font-family:'Open Sans', Arial, sans-serif;
+}

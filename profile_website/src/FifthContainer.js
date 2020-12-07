@@ -7,7 +7,7 @@ const fifthContainer = () => {
             <div className="contact-boxContainer">
                 <div className="contact-1-container">
                     <div className="contact-1-title">
-                        Name
+                    Name
                     </div>
                     <input id="name" placeholder="Your Name" type="text">
                     </input>
@@ -30,8 +30,8 @@ const fifthContainer = () => {
                     <div className="contact-4-title">
                     Message
                     </div>
-                    <input id="message" placeholder="Your Message" type="text">
-                    </input>
+                    <textarea id="message" placeholder="Your Message">
+                    </textarea>
                 </div>
             </div>
         </div>
