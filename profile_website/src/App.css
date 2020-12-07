@@ -339,3 +339,20 @@
   border: 2px solid red;
 }
 
+.contact-boxContainer {
+  height: 100%;
+  width: 75%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.contact-1-title {
+  font-size: 40px;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 200;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
