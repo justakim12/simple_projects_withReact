@@ -288,38 +288,6 @@
   background-color: #282828;
 }
 
-.container-left1 {
-  width: 500px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  border: 2px solid blue;
-  margin-top: 100px;
-}
-
-.container-left1-text {
-  font-size: 60px;
-  font-family:'Open Sans', Arial, sans-serif;
-  font-weight: 900;
-  font-weight: bold;
-  margin-top: 10%;
-}
-
-.container-right1 {
-  width: 700px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border: 2px solid blue;
-}
-
-.container-right1-text {
-  font-size: 25px;
-  font-family:'Open Sans', Arial, sans-serif;
-  font-weight: 300;
-}
-
 /*start of FifthContainer*/
 
 .fifthContainer-textbox {
@@ -431,8 +399,9 @@
   text-align: center;
 }
 
-textarea {
+textarea::placeholder {
   font-size: 25px;
   text-align: center;
   font-family:'Open Sans', Arial, sans-serif;
+  margin: 2px;
 }
