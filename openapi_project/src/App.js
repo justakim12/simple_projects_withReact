@@ -8,7 +8,7 @@ function App() {
   const fetchData = async (e) => {
     const apiKey = process.env.REACT_APP_API_KEY;
     const clickedDate = e.target.textContent;
-    const fetchedData = await axios.get(`http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=${apiKey}&pageNo=1&numOfRows=10&startCreateDt=${clickedDate}&endCreateDt=${clickedDate}`);
+    const fetchedData = await axios.get(`https://cors-anywhere.herokuapp.com/http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=${apiKey}&pageNo=1&numOfRows=10&startCreateDt=${clickedDate}&endCreateDt=${clickedDate}`);
     const decideCntFromAPI = fetchedData.data.response.body.items.item.decideCnt;
     setDecideCnt(decideCntFromAPI);
   }
