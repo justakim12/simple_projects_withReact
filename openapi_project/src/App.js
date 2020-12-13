@@ -17,7 +17,6 @@ function App() {
     <div className="date-box">
       <div className="explain-box">
         <li>Utilized South Korean government provided Open API: <a href="https://data.go.kr/index.do">Go to website</a></li>
-        
         <li>When you select a date, the cumulative number of corona viruses cases in South Korea will show</li>
       </div>  
 
