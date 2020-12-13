@@ -1,0 +1,22 @@
+.date-box {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date {
+  margin: 10px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.result {
+  margin: 10px;
+  font-size: 40px;
+  font-style: bold;
+  color: brown;
+}
