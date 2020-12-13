@@ -16,6 +16,9 @@ function App() {
   
   return (
     <div className="date-box">
+      <div className="title">
+        Select Date
+      </div>
       <div className="date" onClick={fetchData}>
         20201209
       </div>
