@@ -1,9 +1,8 @@
 import './App.css';
 import axios from 'axios';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 function App() {
-
   const [decideCnt, setDecideCnt] = useState('N/A')
 
   const fetchData = async (e) => {
@@ -16,23 +15,29 @@ function App() {
   
   return (
     <div className="date-box">
+      <div className="explain-box">
+        <li>Utilized South Korean government provided Open API: <a href="https://data.go.kr/index.do">Go to website</a></li>
+        
+        <li>When you select a date, the cumulative number of corona viruses cases in South Korea will show</li>
+      </div>  
+
       <div className="title">
         Select Date
       </div>
-      <div className="date" onClick={fetchData}>
+      <button className="date" onClick={fetchData}>
         20201209
-      </div>
-      <div className="date" onClick={fetchData}>
+      </button>
+      <button className="date" onClick={fetchData}>
         20201210
-      </div>
-      <div className="date" onClick={fetchData}>
+      </button>
+      <button className="date" onClick={fetchData}>
         20201211
-      </div>
-      <div className="date" onClick={fetchData}>
+      </button>
+      <button className="date" onClick={fetchData}>
         20201212
-      </div>
+      </button>
       <div className="result">
-        {`누적 확잔자 숫자: ${decideCnt}명`}
+        {`Number of cumulative cases: ${decideCnt}명`}
       </div>
     </div>
   );
