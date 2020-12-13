@@ -1,0 +1,40 @@
+.date-box {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.explain-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.title {
+  margin: 20px;
+  font-size: 60px;
+  font-style: bold;
+}
+
+.date {
+  margin: 10px;
+  font-size: 40px;
+  font-style: bold;
+  width: 250px;
+  height: 60px;
+}
+
+.result {
+  margin: 10px;
+  font-size: 40px;
+  font-style: bold;
+  color: brown;
+}
