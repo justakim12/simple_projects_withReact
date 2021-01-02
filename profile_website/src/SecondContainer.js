@@ -1,6 +1,6 @@
 const SecondContainer = () => {
     return (
-        <div className="container-box">
+        <div className="container-box2">
             <div className="secondContainer-textbox">
                 WORK
             </div>

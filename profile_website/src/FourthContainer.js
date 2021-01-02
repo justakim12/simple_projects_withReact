@@ -1,6 +1,6 @@
 const fourthContainer = () => {
     return (
-        <div className="fourthContainer-box">
+        <div className="container-box4">
             <div className="fourthContainer-textbox">
                 CONTACT
             </div>
@@ -25,13 +25,6 @@ const fourthContainer = () => {
                     </div>
                     <input id="phone" placeholder="Phone Number" type="text">
                     </input>
-                </div>
-                <div className="contact-4-container">
-                    <div className="contact-4-title">
-                    Message
-                    </div>
-                    <textarea id="message" placeholder="Your Message">
-                    </textarea>
                 </div>
             </div>
         </div>
