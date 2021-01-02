@@ -15,7 +15,7 @@ const FirstContainer = () => {
                         David Kyungil Kim
                     </div>
                     <div className="firstContainer-textbox2-h2">
-                        Project Manager and Data Analyst
+                        Product Manager and Data Analyst
                     </div> 
                     <br></br>
                     <br></br>
