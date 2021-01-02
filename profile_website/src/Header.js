@@ -15,9 +15,6 @@ const Header = () => {
                     SKILLSET
                 </div>
                 <div className="menus">
-                    BACKGROUND 
-                </div>
-                <div className="menus">
                     CONTACT
                 </div>
             </div>
